@@ -1,9 +1,9 @@
-from models import leads
+from leads.models import Lead
 from rest_framework import viewsets, permissions
 from .serializers import LeadSerializer
 
 #lead viewset, create crud without creating speific routes
-class LeadViewset(viewsets.ModelViewSet):
+class LeadViewSet(viewsets.ModelViewSet):
     queryset = Lead.objects.all()
     permission_classes = [
         permissions.AllowAny
