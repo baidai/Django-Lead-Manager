@@ -1,7 +1,7 @@
 asn1crypto==0.24.0
 cffi==1.12.2
 cryptography==2.6.1
-Django==2.2
+Django==2.2.4
 django-rest-knox==4.0.1
 djangorestframework==3.9.2
 pycparser==2.19
